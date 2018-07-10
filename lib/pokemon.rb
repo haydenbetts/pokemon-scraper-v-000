@@ -8,7 +8,7 @@ class Pokemon
     self.name = name
     self.type = type
     self.db = db
-    self.hp = hp
+    self.hp = hp if hp
   end
 
   def alter_hp(hp, db)
